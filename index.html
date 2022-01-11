@@ -1,246 +1,237 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>WenetSpeech</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <!--
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
-        -->
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-            <div class="container">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars ms-1"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#license">license</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#download">download</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#schedule">schedule</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#WenetSpeech2.0">WenetSpeech2.0</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#sponsor">sponsor</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#acknowledgements">acknowledgements</a></li>
-                        <li class="nav-item"><a class="nav-link" href="https://arxiv.org/pdf/2110.03370.pdf">paper</a></li>
-                        <li class="nav-item"><a class="nav-link" href="https://github.com/wenet-e2e/WenetSpeech"><i class="fab fa-github"></i></a></li>
-                    </ul>
-                </div>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+    <title>E - MMAD</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico"/>
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <!--
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+    -->
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet"/>
+</head>
+<body id="page-top">
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars ms-1"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#license">license</a></li>
+                <li class="nav-item"><a class="nav-link" href="#download">download</a></li>
+                <li class="nav-item"><a class="nav-link" href="#WenetSpeech2.0">E - MMAD 2.0</a></li>
+                <li class="nav-item"><a class="nav-link" href="#sponsor">sponsor</a></li>
+                <li class="nav-item"><a class="nav-link" href="#acknowledgements">acknowledgements</a></li>
+                <li class="nav-item"><a class="nav-link" href="assets/paper.pdf">paper</a></li>
+<!--                <li class="nav-item"><a class="nav-link" href="https://github.com/wenet-e2e/WenetSpeech"><i-->
+<!--                        class="fab fa-github"></i></a></li>-->
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Masthead-->
+<header class="masthead">
+    <div class="container" id="masthead_container">
+        <div class="masthead-heading">E - MMAD</div>
+        <div class="masthead-subheading">One of the largest video captioning datasets, E-commercial Multimodal Advertising Dataset, which contains 100,000+ valid data elaborately picked out from 1,000,000+ Real Product Examples in both Chinese and English. </div>
+    </div>
+</header>
+<!-- Services-->
+<section class="page-section" id="about">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">About</h2>
+            <h3 class="section-subheading text-muted">
+                we present an e-commercial multi-modal advertising dataset, E-MMAD, which contains 120 thousand valid data elaborately picked out from 1.3 million real product examples in both Chinese and English. Our dataset sources are the Chinese largest e-commerce website shopping platform (\url{www.taobao.com}). Noticeably, it is one of the largest video captioning datasets in this field, in which each example has its product video (around 30 seconds), title, caption and structured information table that is observed to play a vital role in practice.
+            </h3>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <h3 class="my-3">100,000 +</h3>
+                <h5 style="color:rgba(0, 0, 0, .6)">high-level multimodal data</h5>
+                <p class="text-muted">with confidence >= 95%, for supervised training.（待编辑）</p>
             </div>
-        </nav>
-        <!-- Masthead-->
-        <header class="masthead">
-            <div class="container" id="masthead_container">
-                <div class="masthead-heading">WenetSpeech</div>
-                <div class="masthead-subheading">A 10000+ Hours Multi-domain Mandarin Corpus for Speech Recognition</div>
+            <div class="col-md-4">
+                <h3 class="my-3">4000 +</h3>
+                <h5 style="color:rgba(0, 0, 0, .6)">e-commercial  product categories  about various fields</h5>
+                <p class="text-muted">0.6 < confidence < 0.95, for semi-supervised or noisy training, etc.（待编辑）</p>
             </div>
-        </header>
-        <!-- Services-->
-        <section class="page-section" id="about">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">About</h2>
-                    <h3 class="section-subheading text-muted">
-                       We release a 10000+ hours multi-domain transcribed Mandarin Speech Corpus collected from YouTube and Podcast.
-                       Optical character recognition (OCR) and automatic speech recognition (ASR) techniques are adopted to label each YouTube and Podcast recording, respectively.
-                       To improve the quality of the corpus, we use a novel end-to-end label error detection method to further validate and filter the data.
-                    </h3>
-                </div>
-                <div class="row text-center">
-                    <div class="col-md-4">
-                        <h3 class="my-3">10,000 +</h3>
-                        <h5 style="color:rgba(0, 0, 0, .6)">hours high-label data</h5>
-                        <p class="text-muted">with confidence >= 95%, for supervised training.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <h3 class="my-3">2400 +</h3>
-                        <h5 style="color:rgba(0, 0, 0, .6)">hours weak-label data</h5>
-                        <p class="text-muted">0.6 < confidence < 0.95, for semi-supervised or noisy training, etc.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <h3 class="my-3">22400 +</h3>
-                        <h5 style="color:rgba(0, 0, 0, .6)">hours audio in total</h5>
-                        <p class="text-muted">consists of both labeled and unlabeled data, for unsupervised training or pretraining, etc.</p>
-                    </div>
-                </div>
-                <br/>
-                <div class="col-lg-12 text-center">
-                    <h3 class="section-heading text-uppercase">Diversity</h3>
-                    <h3 class="section-subheading text-muted">
-                        The WenetSpeech can be mainly classified into 10 categories according to speaking styles and spoken scenarios.
-                    </h3>
-                </div>
-                <div class="row">
-                    <div class="col-md-3">
-                    </div>
-                    <div class="col-md-6">
-                        <img src="assets/img/diversity.png" alt="utterances" width="100%">
-                    </div>
-                    <div class="col-md-3">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Portfolio Grid-->
-        <section class="page-section" id="download_license">
-            <div class="container">
-                <div class="text-center" id="license">
-                    <h2 class="section-heading text-uppercase">License</h2>
-                    <h3 class="section-subheading">
-                        The WenetSpeech dataset is available to download for non-commercial purposes under a <a
-                            href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International
-                            License. </a>
-                        WenetSpeech doesn't own the copyright of the audios, the copyright remains with the original owners of the
-                        video or audio,
-                        and the public URL is given for the original video or audio.
-                    </h3>
-                </div>
-                <div class="text-center" id="download">
-                    <h2 class="section-heading text-uppercase">DOWNLOAD</h2>
-                    <h3 class="section-subheading">
-                        Please fill out the <a href="https://docs.google.com/forms/d/e/1FAIpQLScjE1nzpvGvFYiwULs1zcffg6VadMDlyPP3OZi3cmd7Aijueg/viewform?usp=sf_link"><b>Google Form here</b></a>, checkout your mailbox, and follow the
-                        instructions to download the WenetSpeech dataset. If you fail to get the email, please write to binbzha@gmail.com.
-                    </h3>
-                </div>
-            </div>
-            </div>
-        </section>
-
-
-        <!-- Team-->
-        <section class="page-section bg-light" id="schedule">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Schedule</h2>
-                    <br/>
-                </div>
-                <div class="row text-center">
-                    <div class="col-md-2">
-                    </div>
-                    <div class="col-md-8">
-                       <h5 class="release_item">Oct 08, 2021: Release paper</h5>
-                       <h5 class="release_item">Oct 25, 2021: Release data</h5>
-                       <h5 class="release_item">Nov 11, 2021: Release various ASR models trianed using WenetSpeech</h5>
-                       <h3 class="section-subheading">
-                       </h3>
-                    </div>
-                    <div class="col-md-2">
-                    </div>
-                  </div
-            </div>
-        </section>
-
-        <section class="page-section" id="WenetSpeech2.0">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">WenetSpeech 2.0</h2>
-                    <h3 class="section-subheading text-muted">
-                        We are preparing for WenetSpeech 2.0, which will contains more data as well as richer data.
-                        If you are willing to cooperate and contribute, please contact the authors by the following WeChat or email.
-                    </h3>
-                </div>
-                <div class="row">
-                    <div class="col-lg-2">
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="team-member">
-                            <img class="mx-auto " src="assets/img/binbin.jpg" alt="..." />
-                            <h4>Binbin Zhang</h4>
-                            <p class="text-muted">binbzha@qq.com</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="team-member">
-                            <img class="mx-auto" src="assets/img/lvhang.jpg" alt="..." />
-                            <h4>Hang Lv</h4>
-                            <p class="text-muted">hanglyu1991@gmail.com</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Clients-->
-        <div class="py-5 bg-light" id="sponsor">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Sponsor</h2>
-                    <br/>
-                </div>
-                <div class="row align-items-center">
-                    <div class="col-md-4 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/nwpu.png" alt="..." width="250px"/></a>
-                    </div>
-                    <div class="col-md-4 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/chumenwenwen.png" alt="..." width="250px"/></a>
-                    </div>
-                    <div class="col-md-4 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/aishelltech.png" alt="..." width="250px"/></a>
-                    </div>
-                </div>
-                <div class="row align-items-center">
-                    <div class="col-md-4 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/tencent.png" alt="..." width="250px"/></a>
-                    </div>
-                    <div class="col-md-4 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/MindSpore.png" alt="..." width="250px"/></a>
-                    </div>
-                    <div class="col-md-4 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/xian.png" alt="..." width="250px"/></a>
-                    </div>
-                </div>
+            <div class="col-md-4">
+                <h3 class="my-3">xxx +</h3>
+                <h5 style="color:rgba(0, 0, 0, .6)">classes of structure information</h5>
+                <p class="text-muted">
+                    consists of both labeled and unlabeled data, for unsupervised training or pretraining, etc.（待编辑）
+                </p>
             </div>
         </div>
-        <!-- Contact-->
-        <section class="page-section" id="acknowledgements">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">ACKNOWLEDGEMENTS</h2>
-                    <h3 class="section-subheading text-muted">
-                        WenetSpeech refers a lot of work of <a href="https://github.com/SpeechColab/GigaSpeech">GigaSpeech</a>
-                        . The authors would like to thank Jiayu Du and Guoguo Chen for their suggestions on this work.
-                        The authors would like to thank my colleagues, Lianhui Zhang and Yu Mao, for collecting some of the YouTube
-                        data.
-                    </h3>
+        <br/>
+        <div class="col-lg-12 text-center">
+            <h3 class="section-heading text-uppercase">Diversity</h3>
+            <h3 class="section-subheading text-muted">
+                The WenetSpeech can be mainly classified into 10 categories according to speaking styles and spoken
+                scenarios.（待编辑）
+            </h3>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+            </div>
+            <div class="col-md-6">
+                <img src="assets/img/a-1.png" alt="utterances" width="100%">
+            </div>
+            <div class="col-md-3">
+            </div>
+        </div>
+        <br/>
+        <div class="row">
+            <div class="col-md-3">
+            </div>
+            <div class="col-md-6">
+                <img src="assets/img/a-2.png" alt="utterances" width="100%">
+            </div>
+            <div class="col-md-3">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Portfolio Grid-->
+<section class="page-section" id="download_license">
+    <div class="container">
+        <div class="text-center" id="license">
+            <h2 class="section-heading text-uppercase">License</h2>
+            <h3 class="section-subheading">
+                （待编辑）The WenetSpeech dataset is available to download for non-commercial purposes under a <a
+                    href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International
+                License. </a>
+                WenetSpeech doesn't own the copyright of the audios, the copyright remains with the original owners of
+                the
+                video or audio,
+                and the public URL is given for the original video or audio.
+            </h3>
+        </div>
+        <div class="text-center" id="download">
+            <h2 class="section-heading text-uppercase">DOWNLOAD</h2>
+            <h3 class="section-subheading">
+                We will release the full data before the conference starts.
+            </h3>
+        </div>
+    </div>
+    </div>
+</section>
+
+<section class="page-section" id="WenetSpeech2.0">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">E - MMAD 2.0</h2>
+            <h3 class="section-subheading text-muted">
+                We are preparing for E-MMAD2.0, which will contain more data to face the bigger multimodal pre-train model.
+            </h3>
+        </div>
+        <div class="row">
+            <div class="col-lg-2">
+            </div>
+            <div class="col-lg-4">
+                <div class="team-member">
+                    <img class="mx-auto " src="assets/img/binbin.jpg" alt="..."/>
+                    <h4>Binbin Zhang（待替换）</h4>
+                    <p class="text-muted">binbzha@qq.com</p>
                 </div>
             </div>
-        </section>
-        <!-- Footer-->
-        <footer class="footer py-4">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-start"></div>
-                    <div class="col-lg-4 my-3 my-lg-0">
-                        <a class="link-dark text-decoration-none" href="#!">Copyright &copy; WenetSpeech 2021</a>
-                    </div>
-                    <div class="col-lg-4 text-lg-end">
-                    </div>
+            <div class="col-lg-4">
+                <div class="team-member">
+                    <img class="mx-auto" src="assets/img/lvhang.jpg" alt="..."/>
+                    <h4>Hang Lv（待替换）</h4>
+                    <p class="text-muted">hanglyu1991@gmail.com</p>
                 </div>
             </div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    </body>
+            <div class="col-lg-2">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Clients-->
+<div class="py-5 bg-light" id="sponsor">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">Sponsor</h2>
+            <br/>
+        </div>
+        <p>
+            Let's guess together and the answer will be revealed soon.
+        </p>
+<!--        <div class="row align-items-center">-->
+<!--            <div class="col-md-4 col-sm-6 my-3">-->
+<!--                <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/nwpu.png" alt="..." width="250px"/></a>-->
+<!--            </div>-->
+<!--            <div class="col-md-4 col-sm-6 my-3">-->
+<!--                <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/chumenwenwen.png" alt="..."-->
+<!--                                  width="250px"/></a>-->
+<!--            </div>-->
+<!--            <div class="col-md-4 col-sm-6 my-3">-->
+<!--                <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/aishelltech.png" alt="..."-->
+<!--                                  width="250px"/></a>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="row align-items-center">-->
+<!--            <div class="col-md-4 col-sm-6 my-3">-->
+<!--                <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/tencent.png" alt="..."-->
+<!--                                  width="250px"/></a>-->
+<!--            </div>-->
+<!--            <div class="col-md-4 col-sm-6 my-3">-->
+<!--                <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/MindSpore.png" alt="..."-->
+<!--                                  width="250px"/></a>-->
+<!--            </div>-->
+<!--            <div class="col-md-4 col-sm-6 my-3">-->
+<!--                <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/xian.png" alt="..." width="250px"/></a>-->
+<!--            </div>-->
+<!--        </div>-->
+    </div>
+</div>
+<!-- Contact-->
+<section class="page-section" id="acknowledgements">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">ACKNOWLEDGEMENTS</h2>
+            <h3 class="section-subheading text-muted">
+                This work is created in the face of Real needs. Thanks to our data labeling teams and others for their hard work and suggestions on this work.
+            </h3>
+        </div>
+    </div>
+</section>
+<!-- Footer-->
+<footer class="footer py-4">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-4 text-lg-start"></div>
+            <div class="col-lg-4 my-3 my-lg-0">
+                <a class="link-dark text-decoration-none" href="#!">Copyright &copy; WenetSpeech 2021</a>
+            </div>
+            <div class="col-lg-4 text-lg-end">
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+<!-- * *                               SB Forms JS                               * *-->
+<!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
 </html>

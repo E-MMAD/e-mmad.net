@@ -11398,11 +11398,11 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/wenetspeech.jpg");
+  background-image: url("../assets/img/emmad.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  background-size: cover;
+  background-size: contain;
 }
 
 #masthead_container{
@@ -11778,7 +11778,7 @@ header.masthead .intro-text {
   /*  background-color: rgba(255,255,255,.7);*/
   z-index: 1000;
 }
-  
+
 header.masthead .intro-text .loader {
   display: flex;
   align-items: center;
