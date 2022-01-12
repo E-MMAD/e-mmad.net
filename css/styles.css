@@ -11402,7 +11402,7 @@ header.masthead {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  background-size: contain;
+  background-size: cover;
 }
 
 #masthead_container{
